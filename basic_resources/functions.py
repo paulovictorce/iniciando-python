@@ -7,5 +7,9 @@ def call_numbers_with_limit(limit):
         print(number)
 
 
-#call_numbers()
-call_numbers_with_limit(30)
+def somando(x,y):
+    return x+y
+
+result = somando(10,20)
+
+print("Result is",result)
