@@ -9,5 +9,5 @@ print(cars)
 print(cars.keys())
 print(cars.values())
 
-if 'Gol' in cars:
-    print(cars['Gol'])
+for key, value in cars.items():
+    print(key + " = "+value)
